@@ -1,0 +1,76 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary: #fb8500;
+$secondary: #eef9fb;
+$accent: #26a69a;
+
+$dark: #1d1d1d;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;
+
+$background: #023047;
+$card-background: #f5f5f5;
+
+body {
+  background-color: $background;
+  color: $background;
+}
+
+.cards {
+  background-color: $card-background !important;
+}
+
+.card-factura{
+  font-size: xx-small !important;
+}
+
+.tabla-factura thead tr:first-child th {
+  /* bg color is important for th; just specify one */
+  background-color: #c4c4c4;
+}
+
+.tabla-factura thead th{
+  font-size: xx-small !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  height: 8px !important;
+}
+
+.tabla-factura tbody td{
+  font-size: xx-small !important;
+  height: 8px !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.tabla-factura tbody tr{
+  height: 8px !important;
+}
+
+.tabla-factura thead tr{
+  height: 20px !important;
+}
+
+.tabla-factura{
+  height: 332px;
+  line-height: 1rem !important;
+}
+
+.low-height{
+  line-height: 13px;
+}
